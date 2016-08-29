@@ -1,0 +1,7 @@
+a[href*="http"] {
+    color: #f70;
+}
+li a[href*="google"] {
+    color: #666;
+}
+a[target="_blank"]
