@@ -1,0 +1,32 @@
+span, input{
+    display: none;
+}
+label {
+    text-decoration: underline;
+}
+label[for="red"] {
+    color: red;
+}
+label[for="green"] {
+    color: lawngreen;
+}
+label[for="blue"] {
+    color: blue;
+}
+span {
+    color: white;
+    border-radius: 5px;
+}
+span.red {
+    background: red;
+}
+span.green {
+    background: green;
+}
+span.blue {
+    background: blue;
+}
+#red:checked ~ span.red, #green:checked ~ span.green, #blue:checked ~ span.blue {
+    display: inline;
+}
+
