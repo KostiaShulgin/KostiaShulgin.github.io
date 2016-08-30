@@ -3,6 +3,7 @@ span, input{
 }
 label {
     text-decoration: underline;
+    margin-right: 30px;
 }
 label[for="red"] {
     color: rgba(255, 194, 194, 0.76) ;
