@@ -5,13 +5,13 @@ label {
     text-decoration: underline;
 }
 label[for="red"] {
-    color: red;
+    color: rgba(255, 194, 194, 0.76) ;
 }
 label[for="green"] {
-    color: lawngreen;
+    color: rgba(182, 220, 182, 0.76);
 }
 label[for="blue"] {
-    color: blue;
+    color: rgba(187, 185, 255, 0.76);
 }
 span {
     color: white;
@@ -28,5 +28,14 @@ span.blue {
 }
 #red:checked ~ span.red, #green:checked ~ span.green, #blue:checked ~ span.blue {
     display: inline;
+}
+#red:checked ~ label[for="red"] {
+    color: red;
+}
+#green:checked ~ label[for="green"] {
+    color: rgba(34, 147, 33, 0.76);
+}
+#blue:checked ~ label[for="blue"] {
+    color: blue;
 }
 
