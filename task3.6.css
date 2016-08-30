@@ -26,9 +26,7 @@ span.green {
 span.blue {
     background: blue;
 }
-#red:checked ~ span.red {
+#red:checked ~ span.red, #green:checked ~ span.green, #blue:checked ~ span.blue {
     display: inline;
 }
-#green:checked ~ span.green
-#blue:checked ~ span.blue
 
