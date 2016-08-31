@@ -1,9 +1,21 @@
-div {
-    width: 900px;
+div.container {
+    width: 100%;
     background-color: rgba(166, 78, 255, 0.76);
-    display: inline-block;
-    font-family:;
+    border-top: 2px solid gainsboro;
+    border-bottom: 2px solid gainsboro;
 }
-title {
-    <link href='http://fonts.googleapis.com/css?family=Economica:400,700' rel='stylesheet' type='text/css'>
+span {
+    display: inline-block;
+    color: white;
+    font-family: Economica;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 5px 15px;
+}
+span:hover {
+    color: #a0a1a4;
+    background: #eeeeee;
+}
+span#home {
+    margin-left: 70px;
 }
