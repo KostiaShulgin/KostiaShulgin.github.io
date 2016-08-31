@@ -1,8 +1,12 @@
-div.container {
+body {
+    margin: 20px 0;
+    min-width: 900px;
+}
+div {
     width: 100%;
+    text-align: center;
     background-color: rgba(166, 78, 255, 0.76);
-    border-top: 2px solid gainsboro;
-    border-bottom: 2px solid gainsboro;
+    box-shadow: 0 0 10px 0 gray;
 }
 span {
     display: inline-block;
@@ -15,7 +19,4 @@ span {
 span:hover {
     color: #a0a1a4;
     background: #eeeeee;
-}
-span#home {
-    margin-left: 70px;
 }
