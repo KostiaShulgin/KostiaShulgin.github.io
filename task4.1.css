@@ -2,25 +2,46 @@ body {
     margin: 20px 0;
     min-width: 900px;
 }
-div.container {
+.container {
     width: 100%;
     background-color: rgba(166, 78, 255, 0.76);
     box-shadow: 0 0 10px 0 gray;
 }
-div.menu {
+.menu {
     width: 900px;
-    margin-left: 50px;
+    margin: auto;
     text-align: center;
 }
-span {
+.pager{
+    background: ghostwhite;
+    width: inherit;
+}
+span, div.pages {
     display: inline-block;
-    color: white;
     font-family: Economica;
     font-weight: bold;
+}
+.pager span{
+    font-size: 18px;
+    color: #a23cd2;
+    margin: 5px;
+    border: 1px solid gainsboro;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.pager span:hover {
+    color: white;
+    background: #a23cd2;
+}
+.container span {
+    color: white;
     font-size: 24px;
     padding: 5px 15px;
 }
-span:hover {
+.more {
+    float: right;
+}
+.menu span:hover {
     color: #a0a1a4;
     background: #eeeeee;
 }
