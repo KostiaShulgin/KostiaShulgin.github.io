@@ -1,0 +1,28 @@
+div, span {
+    display: inline-block;
+    color: #a23cd2;
+}
+.pager {
+    background: ghostwhite;
+}
+.pages {
+
+}
+.pager span {
+    margin: 5px;
+    font-size: small;
+    vertical-align: middle
+}
+.pages span {
+    border: 1px solid gainsboro;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.pages span:hover {
+    color: white;
+    background: #a23cd2;
+    border: 1px solid #9f13dc;
+}
+.dots {
+    vertical-align: bottom;
+}

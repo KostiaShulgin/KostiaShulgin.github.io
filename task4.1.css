@@ -2,36 +2,21 @@ body {
     margin: 20px 0;
     min-width: 900px;
 }
+
+span {
+     display: inline-block;
+     font-family: Economica;
+     font-weight: bold;
+}
 .container {
-    width: 100%;
-    background-color: rgba(166, 78, 255, 0.76);
-    box-shadow: 0 0 10px 0 gray;
+      width: 100%;
+      background-color: rgba(166, 78, 255, 0.76);
+      box-shadow: 0 0 10px 0 gray;
 }
 .menu {
     width: 900px;
     margin: auto;
     text-align: center;
-}
-.pager{
-    background: ghostwhite;
-    width: inherit;
-}
-span, div.pages {
-    display: inline-block;
-    font-family: Economica;
-    font-weight: bold;
-}
-.pager span{
-    font-size: 18px;
-    color: #a23cd2;
-    margin: 5px;
-    border: 1px solid gainsboro;
-    padding: 5px 10px;
-    border-radius: 5px;
-}
-.pager span:hover {
-    color: white;
-    background: #a23cd2;
 }
 .container span {
     color: white;
@@ -44,4 +29,10 @@ span, div.pages {
 .menu span:hover {
     color: #a0a1a4;
     background: #eeeeee;
+}
+.pager {
+    background: ghostwhite;
+}
+.pages {
+    display: inline-block;
 }
